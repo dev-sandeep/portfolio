@@ -1,0 +1,113 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 00:37:41
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 00:37:41 W3SVC604 GET /robots.txt - - 207.46.13.214 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - sandeepg.co.in 404 0 2 5383 247 718
+2017-04-03 00:38:38 W3SVC604 GET /robots.txt - - 66.249.69.190 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.sandeepg.co.in 404 0 2 5387 228 462
+2017-04-03 00:38:47 W3SVC604 GET / - - 66.249.69.186 HTTP/1.1 Mozilla/5.0+(Linux;+Android+6.0.1;+Nexus+5X+Build/MMB29P)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/41.0.2272.96+Mobile+Safari/537.36+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.sandeepg.co.in 200 0 0 44335 421 1455
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 01:34:32
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 01:34:32 W3SVC604 GET / - - 180.76.15.158 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.sandeepg.co.in 200 0 0 44354 220 921
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 02:17:20
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 02:17:20 W3SVC604 GET / - - 40.77.167.70 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - sandeepg.co.in 200 0 0 44335 269 1904
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 02:41:12
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 02:41:12 W3SVC604 GET /assets/js/custom.js - - 180.76.15.139 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.sandeepg.co.in 200 0 0 7648 239 368
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 05:40:07
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 05:40:06 W3SVC604 GET /assets/css/ajax-loader.gif - - 203.13.146.14 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 _ga=GA1.3.1893817043.1490876875 http://sandeepg.co.in/assets/css/slick.css sandeepg.co.in 404 0 2 5415 430 348
+2017-04-03 05:40:06 W3SVC604 GET /assets/fonts/fontawesome-webfont.woff2 v=4.4.0 - 203.13.146.14 HTTP/1.1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/56.0.2924.87+Safari/537.36 _ga=GA1.3.1893817043.1490876875 http://sandeepg.co.in/assets/css/font-awesome.css sandeepg.co.in 404 3 64 2760 463 721
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 06:18:57
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 06:18:57 W3SVC604 GET / - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - - sandeepg.co.in 200 0 0 44335 377 1444
+2017-04-03 06:18:58 W3SVC604 GET /assets/css/slick.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 5120 344 322
+2017-04-03 06:18:58 W3SVC604 GET /assets/css/theme-color/default.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 5143 358 374
+2017-04-03 06:18:58 W3SVC604 GET /assets/css/jquery.fancybox.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 5170 354 383
+2017-04-03 06:18:58 W3SVC604 GET /preloader.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 37113 337 424
+2017-04-03 06:18:58 W3SVC604 GET /style.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 55824 333 451
+2017-04-03 06:18:58 W3SVC604 GET /assets/css/animate.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 71056 346 886
+2017-04-03 06:18:58 W3SVC604 GET /assets/css/font-awesome.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 32566 351 1291
+2017-04-03 06:18:59 W3SVC604 GET /assets/js/bootstrap.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 69154 331 903
+2017-04-03 06:19:01 W3SVC604 GET /assets/css/bootstrap.css - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 147679 348 4402
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/slick.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 79497 327 2451
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/jquery.counterup.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 2839 338 214
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/jquery.fancybox.pack.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 23450 342 334
+2017-04-03 06:19:02 W3SVC604 GET /assets/fonts/fontawesome-webfont.woff2 v=4.4.0 - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/assets/css/font-awesome.css sandeepg.co.in 404 3 50 7529 413 136
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/waypoints.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 13833 331 344
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/wow.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 15811 325 341
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/custom.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 7629 328 169
+2017-04-03 06:19:02 W3SVC604 GET /assets/js/jquery.mixitup.js - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 52488 336 530
+2017-04-03 06:19:02 W3SVC604 GET /assets/images/logo.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 2570 356 171
+2017-04-03 06:19:02 W3SVC604 GET /assets/images/search-icon.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/style.css sandeepg.co.in 200 0 0 1446 372 163
+2017-04-03 06:19:02 W3SVC604 GET /assets/images/skills/JS.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 16530 361 257
+2017-04-03 06:19:02 W3SVC604 GET /assets/images/header-bg.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 154134 361 678
+2017-04-03 06:19:02 W3SVC604 GET /assets/images/skills/UX.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 28114 361 500
+2017-04-03 06:19:03 W3SVC604 GET /assets/css/ajax-loader.gif - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/assets/css/slick.css sandeepg.co.in 404 0 2 5415 380 173
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/skills/angular.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 18192 366 296
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/skills/jq.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 21781 361 309
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/skills/html.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 16621 363 382
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/skills/boot.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 17734 363 225
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/skills/css.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 17144 362 372
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/portfolio/small/ezeone-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 9925 380 383
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/portfolio/small/fomads-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 14445 380 272
+2017-04-03 06:19:03 W3SVC604 GET /assets/images/about-img.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 57719 361 1460
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/skills/php.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 20953 362 553
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/portfolio/small/laundrokart-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 12463 433 249
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/portfolio/small/kartwagon-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 9103 431 245
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/portfolio/small/nykbags-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 10430 381 369
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/portfolio/small/rapidkart-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 10107 431 100
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/portfolio/small/hc.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 73880 418 478
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/portfolio/small/indianfaujies-small.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 13838 435 280
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/testimonial-image1.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 25133 418 290
+2017-04-03 06:19:04 W3SVC604 GET /assets/images/team-member2.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 17402 412 285
+2017-04-03 06:19:05 W3SVC604 GET /assets/fonts/fontawesome-webfont.woff v=4.4.0 - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/assets/css/font-awesome.css sandeepg.co.in 200 0 0 81535 412 2300
+2017-04-03 06:19:05 W3SVC604 GET /assets/images/the-sky.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 40608 407 483
+2017-04-03 06:19:05 W3SVC604 GET /assets/images/comp/agt.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 2935 408 152
+2017-04-03 06:19:05 W3SVC604 GET /assets/images/testimonial-bg.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 134989 414 1126
+2017-04-03 06:19:05 W3SVC604 GET /assets/images/sealand.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 34023 407 470
+2017-04-03 06:19:05 W3SVC604 GET /assets/images/comp/hc.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 2430 407 224
+2017-04-03 06:19:05 W3SVC604 GET /assets/images/team-member1.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/style.css sandeepg.co.in 200 0 0 4224 421 206
+2017-04-03 06:19:06 W3SVC604 GET /assets/images/team-member4.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/style.css sandeepg.co.in 200 0 0 13992 421 300
+2017-04-03 06:19:06 W3SVC604 GET /assets/images/counter-bg.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 78661 410 1720
+2017-04-03 06:19:06 W3SVC604 GET /assets/images/team-member3.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/style.css sandeepg.co.in 200 0 0 12530 421 625
+2017-04-03 06:19:06 W3SVC604 GET /assets/images/photographer.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 21862 412 1607
+2017-04-03 06:19:08 W3SVC604 GET /assets/images/contact-bg.jpg - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/style.css sandeepg.co.in 200 0 0 135100 419 2600
+2017-04-03 06:19:09 W3SVC604 GET /assets/images/call-to-action-bg.png - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 - http://sandeepg.co.in/ sandeepg.co.in 200 0 0 548996 369 7002
+2017-04-03 06:19:09 W3SVC604 GET /assets/images/favicon.ico - - 122.172.28.129 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.3;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/57.0.2987.133+Safari/537.36 _ga=GA1.3.346015030.1491200328;+_gat=1 http://sandeepg.co.in/ sandeepg.co.in 200 0 0 1401 407 165
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 13:11:54
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 13:11:52 W3SVC604 GET / - - 180.76.15.145 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - sandeepg.co.in 200 0 0 44354 216 1105
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 14:18:16
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 14:18:16 W3SVC604 GET /robots.txt - - 207.46.13.206 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.sandeepg.co.in 404 0 2 5387 251 704
+2017-04-03 14:23:07 W3SVC604 GET /assets/images/blog-banner.jpg - - 207.46.13.155 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.sandeepg.co.in 200 0 0 89143 302 1636
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 15:47:34
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 15:47:34 W3SVC604 GET /assets/js/wow.js - - 180.76.15.135 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - sandeepg.co.in 200 0 0 15830 232 518
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 17:40:12
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 17:40:12 W3SVC604 GET /robots.txt - - 46.229.164.102 HTTP/1.1 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) - - sandeepg.co.in 404 0 2 5402 204 696
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-04-03 18:00:52
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-04-03 18:00:52 W3SVC604 GET /assets/js/jquery.fancybox.pack.js - - 180.76.15.11 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.sandeepg.co.in 200 0 0 23469 253 518

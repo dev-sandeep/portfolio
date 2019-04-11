@@ -1,0 +1,68 @@
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-23 19:55:39
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-23 19:55:39 W3SVC604 GET /robots.txt - - 46.229.164.98 HTTP/1.1 Mozilla/5.0+(compatible;+SemrushBot/1.2~bl;++http://www.semrush.com/bot.html) - - sandeepg.co.in 404 0 2 5402 204 762
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-23 20:41:39
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-23 20:41:38 W3SVC604 GET /robots.txt - - 66.249.79.88 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.sandeepg.co.in 404 0 2 5387 228 557
+2017-03-23 20:41:40 W3SVC604 GET / - - 66.249.79.80 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.sandeepg.co.in 200 0 0 44335 295 1636
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-23 23:51:15
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-23 23:51:14 W3SVC604 GET / - - 180.76.15.31 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.sandeepg.co.in 200 0 0 44354 220 819
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 00:56:06
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 00:56:06 W3SVC604 GET /robots.txt - - 141.8.132.75 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.sandeepg.co.in 404 0 2 5387 188 609
+2017-03-24 00:56:16 W3SVC604 GET /assets/images/favicon.ico - - 141.8.142.191 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.sandeepg.co.in 200 0 0 1401 247 191
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 07:30:23
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 07:30:22 W3SVC604 GET /robots.txt - - 207.46.13.197 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - sandeepg.co.in 404 0 2 5383 247 957
+2017-03-24 07:31:03 W3SVC604 GET / - - 207.46.13.138 HTTP/1.1 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) - - sandeepg.co.in 200 0 0 44335 250 8794
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 07:48:23
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 07:48:23 W3SVC604 GET / - - 180.76.15.134 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - sandeepg.co.in 200 0 0 44354 216 481
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 09:43:41
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 09:43:40 W3SVC604 GET /assets/js/slick.js - - 180.76.15.33 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.sandeepg.co.in 200 0 0 79516 238 2857
+2017-03-24 09:57:47 W3SVC604 GET /robots.txt - - 141.8.184.3 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - sandeepg.co.in 404 0 2 5383 184 206
+2017-03-24 09:57:49 W3SVC604 GET /robots.txt - - 141.8.142.191 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.sandeepg.co.in 404 0 2 5387 188 177
+2017-03-24 09:57:51 W3SVC604 GET / - - 141.8.142.191 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - sandeepg.co.in 200 0 0 44335 279 444
+2017-03-24 09:57:52 W3SVC604 GET / - - 93.158.152.80 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.sandeepg.co.in 200 0 0 44335 283 207
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 10:32:05
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 10:32:04 W3SVC604 GET /blog-single.html - - 180.76.15.21 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - sandeepg.co.in 200 0 0 15150 232 620
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 15:06:30
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 15:06:29 W3SVC604 GET /robots.txt - - 207.46.13.222 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.sandeepg.co.in 404 0 2 5387 251 783
+2017-03-24 15:06:33 W3SVC604 GET /assets/images/portfolio/big/ezeone-big.jpg - - 207.46.13.74 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.sandeepg.co.in 200 0 0 68845 315 1328
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 16:16:17
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 16:16:16 W3SVC604 GET /assets/images/favicon.ico - - 141.8.132.75 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - sandeepg.co.in 200 0 0 1401 243 503
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 16:34:58
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 16:34:58 W3SVC604 GET / - - 180.76.15.157 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.sandeepg.co.in 200 0 0 44354 220 746
+#Software: Microsoft Internet Information Services 7.5
+#Version: 1.0
+#Date: 2017-03-24 17:19:41
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
+2017-03-24 17:19:40 W3SVC604 GET /assets/js/jquery.counterup.js - - 180.76.15.153 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - sandeepg.co.in 200 0 0 2858 245 424
