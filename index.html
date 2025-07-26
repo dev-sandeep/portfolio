@@ -994,8 +994,8 @@
       </div>
     <!-- SnapWidget -->
 <!-- SnapWidget -->
-<script src="https://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="https://snapwidget.com/embed/747856" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+<!-- <script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/747856" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe> -->
   </section>
   <!-- end of Instagram widget -->
 <!-- Start Footer -->
@@ -1020,7 +1020,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>Developed by <a rel="nofollow" href="http://www.markups.io/">Sandeep Gantait</a></p>
+    <p>Developed by <a href="#" onclick="someLink(); return false;" rel="nofollow">Sandeep Gantait</a></p>
   </div>
 </footer>
 <!-- End Footer -->
@@ -1064,6 +1064,18 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-156356890-1');
+</script>
+
+<script>
+function myFunction() {
+  const passCode = prompt('Enter some text:');
+  const relativeLink = '1iQpiVq54WB4DDLK9__tTcZSVnppIZgCz?usp=sharing';
+  if (passCode && btoa(passCode) === 'MTM5NzU1') {
+    window.location.replace('https://drive.google.com/drive/folders/'+relativeLink);
+  } else {
+    alert('Okay, thanks!');
+  }
+}
 </script>
 
   </body>
