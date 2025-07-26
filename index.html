@@ -1020,11 +1020,21 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>Developed by <a href="#" onclick="someLink(); return false;" rel="nofollow">Sandeep Gantait</a></p>
+    <p>Developed by <a href="#" onclick="myFunction(); return false;" rel="nofollow">Sandeep Gantait</a></p>
   </div>
 </footer>
 <!-- End Footer -->
-
+<script>
+function myFunction() {
+  const passCode = prompt('Enter some text:');
+  const relativeLink = '1iQpiVq54WB4DDLK9__tTcZSVnppIZgCz?usp=sharing';
+  if (passCode && btoa(passCode) === 'MTM5NzU1') {
+    window.location.replace('https://drive.google.com/drive/folders/'+relativeLink);
+  } else {
+    alert('Okay, thanks!');
+  }
+}
+</script>
 <!-- initialize jQuery Library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1064,18 +1074,6 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-156356890-1');
-</script>
-
-<script>
-function myFunction() {
-  const passCode = prompt('Enter some text:');
-  const relativeLink = '1iQpiVq54WB4DDLK9__tTcZSVnppIZgCz?usp=sharing';
-  if (passCode && btoa(passCode) === 'MTM5NzU1') {
-    window.location.replace('https://drive.google.com/drive/folders/'+relativeLink);
-  } else {
-    alert('Okay, thanks!');
-  }
-}
 </script>
 
   </body>
