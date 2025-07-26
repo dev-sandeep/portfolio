@@ -1054,7 +1054,8 @@ function myFunction() {
   if (passCode && btoa(passCode) === 'MTM5NzU1') {
      const href = atob(driveLink);
      link.textContent = href;
-      linkLabel.textContent = '';
+     linkLabel.textContent = '';
+     link.href = href;
   } else {
     alert('Okay, thanks!');
   }
