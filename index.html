@@ -1043,21 +1043,7 @@
 
 </footer>
 <!-- End Footer -->
-<script>
-function myFunction() {
-  const passCode = prompt('Enter some text:');
-  const link = document.getElementById('hidden-url');
-  const driveLink = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWlRcGlWcTU0V0I0RERMSzlfX3RUY1pTVm5wcElaZ0N6P3VzcD1zaGFyaW5n';
-  if (passCode && btoa(passCode) === 'MTM5NzU1') {
-    var myModal = new bootstrap.Modal(document.getElementById('linkModal'));
-    myModal.show();
 
-     link.href = atob(driveLink);
-  } else {
-    alert('Okay, thanks!');
-  }
-}
-</script>
 <!-- initialize jQuery Library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -1077,6 +1063,21 @@ function myFunction() {
 
 <!-- Custom js -->
 <script type="text/javascript" src="assets/js/custom.js"></script>
+  <script>
+function myFunction() {
+  const passCode = prompt('Enter some text:');
+  const link = document.getElementById('hidden-url');
+  const driveLink = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWlRcGlWcTU0V0I0RERMSzlfX3RUY1pTVm5wcElaZ0N6P3VzcD1zaGFyaW5n';
+  if (passCode && btoa(passCode) === 'MTM5NzU1') {
+    var myModal = new bootstrap.Modal(document.getElementById('linkModal'));
+    myModal.show();
+
+     link.href = atob(driveLink);
+  } else {
+    alert('Okay, thanks!');
+  }
+}
+</script>
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
