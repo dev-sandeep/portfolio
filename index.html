@@ -1052,7 +1052,8 @@ function myFunction() {
   const driveLink = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWlRcGlWcTU0V0I0RERMSzlfX3RUY1pTVm5wcElaZ0N6P3VzcD1zaGFyaW5n';
   if (passCode && btoa(passCode) === 'MTM5NzU1') {
      link.href = atob(driveLink);
-     link.textContent = 'Click here for emergency drive folder'
+     link.textContent = 'Click here for emergency drive folder';
+     link.removeAttribute('onclick');
   } else {
     alert('Okay, thanks!');
   }
