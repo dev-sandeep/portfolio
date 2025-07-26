@@ -1020,7 +1020,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>Developed by <a href="#" id="hidden-url" onclick="myFunction(); return false;" rel="nofollow">Sandeep Gantait</a></p>
+    <p><span id="hidden-url-label">Developed by</span> <a href="#" id="hidden-url" onclick="myFunction(); return false;" rel="nofollow">Sandeep Gantait</a></p>
   </div>
   
 </footer>
@@ -1049,17 +1049,12 @@
 function myFunction() {
   const passCode = prompt('Enter some text:');
   const link = document.getElementById('hidden-url');
+  const linkLabel = document.getElementById('hidden-url-label');
   const driveLink = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWlRcGlWcTU0V0I0RERMSzlfX3RUY1pTVm5wcElaZ0N6P3VzcD1zaGFyaW5n';
   if (passCode && btoa(passCode) === 'MTM5NzU1') {
-     link.href = atob(driveLink);
-     navigator.clipboard.writeText(atob(driveLink))
-      .then(() => {
-        console.log('Drive link copied to clipboard!');
-        alert('Drive link copied to clipboard, got another tab and paste');
-      })
-      .catch(err => {
-        console.error('Failed to copy text: ', err);
-      });
+     const href = atob(driveLink);
+     link.textContent = href;
+      linkLabel.textContent = '';
   } else {
     alert('Okay, thanks!');
   }
