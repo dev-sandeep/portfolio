@@ -1022,14 +1022,37 @@
   <div class="footer-bottom">
     <p>Developed by <a href="#" onclick="myFunction(); return false;" rel="nofollow">Sandeep Gantait</a></p>
   </div>
+
+<!-- Modal Structure -->
+<div class="modal fade" id="linkModal" tabindex="-1" aria-labelledby="linkModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="linkModalLabel">Your Link</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Click this link: <a href="https://example.com" target="_blank" id="hidden-url">Visit sandeepg.co.in</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </footer>
 <!-- End Footer -->
 <script>
 function myFunction() {
   const passCode = prompt('Enter some text:');
-  const relativeLink = '1iQpiVq54WB4DDLK9__tTcZSVnppIZgCz?usp=sharing';
+  const link = document.getElementById('hidden-url');
+  const driveLink = 'aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMWlRcGlWcTU0V0I0RERMSzlfX3RUY1pTVm5wcElaZ0N6P3VzcD1zaGFyaW5n';
   if (passCode && btoa(passCode) === 'MTM5NzU1') {
-    window.location.replace('https://drive.google.com/drive/folders/'+relativeLink);
+    var myModal = new bootstrap.Modal(document.getElementById('linkModal'));
+    myModal.show();
+
+     link.href = atob(driveLink);
   } else {
     alert('Okay, thanks!');
   }
