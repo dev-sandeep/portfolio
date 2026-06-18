@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy | Chrome Extensions &amp; Apps</title>
-  <link rel="canonical" href="https://www.sandeepg.co.in/privacy-policy-chrome-extension" />
-  <meta property="og:url" content="https://www.sandeepg.co.in/privacy-policy-chrome-extension" />
+  <link rel="canonical" href="https://sandeepg.co.in/privacy-policy-chrome-extension" />
+  <meta property="og:url" content="https://sandeepg.co.in/privacy-policy-chrome-extension" />
   <meta property="og:title" content="Privacy Policy | Chrome Extensions &amp; Apps" />
   <style>
     :root {
@@ -79,14 +79,14 @@
 </head>
 <body>
 
-  <p class="meta"><a href="/privacy">&larr; All privacy policies</a> &nbsp;|&nbsp; <a href="/">Home</a></p>
+  <p class="meta"><a href="privacy.html">&larr; All privacy policies</a> &nbsp;|&nbsp; <a href="index.html">Home</a></p>
 
   <h1>Privacy Policy</h1>
 
   <div class="share-box">
     <span class="share-label">Share link</span>
     <div class="share-row">
-      <input type="text" readonly id="share-url" value="https://www.sandeepg.co.in/privacy-policy-chrome-extension" aria-label="Share link">
+      <input type="text" readonly id="share-url" aria-label="Share link">
       <button type="button" id="copy-btn">Copy link</button>
     </div>
   </div>
@@ -239,6 +239,7 @@
   </p>
 
   <script>
+    document.getElementById('share-url').value = 'https://sandeepg.co.in/privacy-policy-chrome-extension';
     document.getElementById('copy-btn').addEventListener('click', function () {
       var btn = this;
       var url = document.getElementById('share-url').value;
