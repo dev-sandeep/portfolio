@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policies | Sandeep Gantait</title>
   <meta name="description" content="Privacy policies for apps and extensions by Sandeep Gantait." />
+  <link rel="canonical" href="https://www.sandeepg.co.in/privacy" />
   <style>
     :root {
       color-scheme: light dark;
@@ -44,37 +45,91 @@
       margin-bottom: 0.75rem;
       padding: 1rem 1.25rem;
     }
-    li a {
+    li a.title-link {
       font-weight: 600;
       text-decoration: none;
     }
-    li a:hover { text-decoration: underline; }
+    li a.title-link:hover { text-decoration: underline; }
     li p {
-      margin: 0.35rem 0 0;
+      margin: 0.35rem 0 0.75rem;
       color: var(--muted);
       font-size: 0.95rem;
     }
     .back { margin-bottom: 1.5rem; font-size: 0.95rem; }
     hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .share-box { margin-bottom: 2rem; }
+    .share-label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .share-row {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .share-row input {
+      flex: 1;
+      min-width: 0;
+      font: inherit;
+      font-size: 0.9rem;
+      padding: 0.55rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .share-row button {
+      font: inherit;
+      font-size: 0.9rem;
+      padding: 0.55rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .share-row button:hover { border-color: var(--link); color: var(--link); }
+    .share-row button.copied { color: #16a34a; border-color: #16a34a; }
+    li .share-row input { font-size: 0.85rem; }
+    li .share-row button { font-size: 0.85rem; padding: 0.45rem 0.75rem; }
   </style>
 </head>
 <body>
 
-  <p class="back"><a href="index.html">&larr; Back to home</a></p>
+  <p class="back"><a href="/">&larr; Back to home</a></p>
 
   <h1>Privacy Policies</h1>
-  <p class="meta">
-    Select a product below to read its privacy policy.
-  </p>
+  <p class="meta">Select a product below to read its privacy policy.</p>
+
+  <div class="share-box">
+    <span class="share-label">Share this page</span>
+    <div class="share-row">
+      <input type="text" readonly data-share-url="https://www.sandeepg.co.in/privacy" aria-label="Share link for privacy policies index">
+      <button type="button" data-copy-btn>Copy link</button>
+    </div>
+  </div>
 
   <ul>
     <li>
-      <a href="privacy-mooo.html">Mooo App</a>
+      <a class="title-link" href="/privacy-mooo">Mooo App</a>
       <p>Privacy policy for the Mooo mobile application.</p>
+      <div class="share-row">
+        <input type="text" readonly data-share-url="https://www.sandeepg.co.in/privacy-mooo" aria-label="Share link for Mooo app privacy policy">
+        <button type="button" data-copy-btn>Copy</button>
+      </div>
     </li>
     <li>
-      <a href="privacy-policy-chrome-extension.html">Chrome Extensions &amp; Apps</a>
+      <a class="title-link" href="/privacy-policy-chrome-extension">Chrome Extensions &amp; Apps</a>
       <p>Privacy policy for browser extensions and related software.</p>
+      <div class="share-row">
+        <input type="text" readonly data-share-url="https://www.sandeepg.co.in/privacy-policy-chrome-extension" aria-label="Share link for Chrome extensions privacy policy">
+        <button type="button" data-copy-btn>Copy</button>
+      </div>
     </li>
   </ul>
 
@@ -82,6 +137,27 @@
   <p class="meta">
     Questions? Contact <a href="mailto:uplinksandy9@gmail.com">uplinksandy9@gmail.com</a>
   </p>
+
+  <script>
+    document.querySelectorAll('[data-share-url]').forEach(function (input) {
+      input.value = input.dataset.shareUrl;
+    });
+    document.querySelectorAll('[data-copy-btn]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var input = btn.parentElement.querySelector('[data-share-url]');
+        var url = input.value;
+        navigator.clipboard.writeText(url).then(function () {
+          var label = btn.textContent;
+          btn.textContent = 'Copied!';
+          btn.classList.add('copied');
+          setTimeout(function () {
+            btn.textContent = label;
+            btn.classList.remove('copied');
+          }, 2000);
+        });
+      });
+    });
+  </script>
 
 </body>
 </html>

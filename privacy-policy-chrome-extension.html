@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy</title>
+  <title>Privacy Policy | Chrome Extensions &amp; Apps</title>
+  <link rel="canonical" href="https://www.sandeepg.co.in/privacy-policy-chrome-extension" />
+  <meta property="og:url" content="https://www.sandeepg.co.in/privacy-policy-chrome-extension" />
+  <meta property="og:title" content="Privacy Policy | Chrome Extensions &amp; Apps" />
   <style>
     :root {
       color-scheme: light dark;
@@ -37,13 +40,56 @@
     ul { padding-left: 1.25rem; }
     a { color: #2563eb; }
     hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    .share-box { margin-bottom: 1.5rem; }
+    .share-label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .share-row { display: flex; gap: 0.5rem; }
+    .share-row input {
+      flex: 1;
+      min-width: 0;
+      font: inherit;
+      font-size: 0.9rem;
+      padding: 0.55rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .share-row button {
+      font: inherit;
+      font-size: 0.9rem;
+      padding: 0.55rem 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .share-row button:hover { border-color: #2563eb; color: #2563eb; }
+    .share-row button.copied { color: #16a34a; border-color: #16a34a; }
   </style>
 </head>
 <body>
 
-  <p class="meta"><a href="privacy.html">&larr; All privacy policies</a> &nbsp;|&nbsp; <a href="index.html">Home</a></p>
+  <p class="meta"><a href="/privacy">&larr; All privacy policies</a> &nbsp;|&nbsp; <a href="/">Home</a></p>
 
   <h1>Privacy Policy</h1>
+
+  <div class="share-box">
+    <span class="share-label">Share link</span>
+    <div class="share-row">
+      <input type="text" readonly id="share-url" value="https://www.sandeepg.co.in/privacy-policy-chrome-extension" aria-label="Share link">
+      <button type="button" id="copy-btn">Copy link</button>
+    </div>
+  </div>
   <p class="meta">
     <strong>Effective date:</strong> June 17, 2026<br />
     <strong>Last updated:</strong> June 17, 2026
@@ -191,6 +237,21 @@
   <p class="meta">
     © 2026. All Apps published by uplinksandy9@gmail.com.
   </p>
+
+  <script>
+    document.getElementById('copy-btn').addEventListener('click', function () {
+      var btn = this;
+      var url = document.getElementById('share-url').value;
+      navigator.clipboard.writeText(url).then(function () {
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(function () {
+          btn.textContent = 'Copy link';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    });
+  </script>
 
 </body>
 </html>
