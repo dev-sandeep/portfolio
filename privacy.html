@@ -97,6 +97,29 @@
     .share-row button.copied { color: #16a34a; border-color: #16a34a; }
     li .share-row input { font-size: 0.85rem; }
     li .share-row button { font-size: 0.85rem; padding: 0.45rem 0.75rem; }
+    .app-policy-box h2 {
+      font-size: 1.05rem;
+      margin: 0 0 0.35rem;
+    }
+    .app-policy-box label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+    .app-policy-box .share-row + .share-row {
+      margin-top: 0.75rem;
+    }
+    #view-app-policy {
+      background: var(--link);
+      border-color: var(--link);
+      color: #fff;
+    }
+    #view-app-policy:hover {
+      opacity: 0.9;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
@@ -115,12 +138,17 @@
   </div>
 
   <ul>
-    <li>
-      <a class="title-link" href="privacy-mooo.html">Mooo App</a>
-      <p>Privacy policy for the Mooo mobile application.</p>
+    <li class="app-policy-box">
+      <h2>Android App Privacy Policy</h2>
+      <p>Enter an app name to view or share a custom privacy policy. Leave blank to use the default name, Android.</p>
+      <label for="app-name-input">App name</label>
       <div class="share-row">
-        <input type="text" readonly data-share-path="privacy-mooo.html" aria-label="Share link for Mooo app privacy policy">
-        <button type="button" data-copy-btn>Copy</button>
+        <input type="text" id="app-name-input" placeholder="Android" aria-label="App name" maxlength="50">
+        <button type="button" id="view-app-policy">View policy</button>
+      </div>
+      <div class="share-row">
+        <input type="text" readonly id="app-share-url" aria-label="Share link for app privacy policy">
+        <button type="button" id="copy-app-share">Copy</button>
       </div>
     </li>
     <li>
@@ -140,12 +168,41 @@
 
   <script>
     var SITE = 'https://sandeepg.co.in';
-    function shareUrl(path) {
-      return SITE + '/' + path.replace(/\.html$/, '');
+    var DEFAULT_APP = 'Android';
+    var APP_POLICY_PAGE = 'privacy-mooo.html';
+
+    function sanitizeAppName(value) {
+      return (value || '').trim().replace(/[<>"']/g, '').slice(0, 50);
     }
+
+    function getAppName() {
+      var input = document.getElementById('app-name-input');
+      var name = sanitizeAppName(input.value);
+      return name || DEFAULT_APP;
+    }
+
+    function appPolicyPath(appName) {
+      if (appName === DEFAULT_APP) {
+        return APP_POLICY_PAGE;
+      }
+      return APP_POLICY_PAGE + '?app=' + encodeURIComponent(appName);
+    }
+
+    function shareUrl(path) {
+      var url = new URL(path, SITE + '/');
+      return url.origin + url.pathname.replace(/\.html$/, '') + url.search;
+    }
+
+    function updateAppPolicyLinks() {
+      var appName = getAppName();
+      var path = appPolicyPath(appName);
+      document.getElementById('app-share-url').value = shareUrl(path);
+    }
+
     document.querySelectorAll('[data-share-path]').forEach(function (input) {
       input.value = shareUrl(input.dataset.sharePath);
     });
+
     document.querySelectorAll('[data-copy-btn]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var input = btn.parentElement.querySelector('[data-share-path]');
@@ -161,6 +218,30 @@
         });
       });
     });
+
+    document.getElementById('app-name-input').addEventListener('input', updateAppPolicyLinks);
+    document.getElementById('view-app-policy').addEventListener('click', function () {
+      window.location.href = appPolicyPath(getAppName());
+    });
+    document.getElementById('copy-app-share').addEventListener('click', function () {
+      var btn = this;
+      var url = document.getElementById('app-share-url').value;
+      navigator.clipboard.writeText(url).then(function () {
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(function () {
+          btn.textContent = 'Copy';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    });
+
+    var params = new URLSearchParams(location.search);
+    var presetApp = sanitizeAppName(params.get('app') || params.get('name') || '');
+    if (presetApp && presetApp !== DEFAULT_APP) {
+      document.getElementById('app-name-input').value = presetApp;
+    }
+    updateAppPolicyLinks();
   </script>
 
 </body>
