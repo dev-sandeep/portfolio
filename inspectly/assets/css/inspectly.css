@@ -478,6 +478,19 @@ body.insp-page {
 
 .insp-footer a:hover { color: var(--insp-blue); }
 
+.insp-footer-copy {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--insp-border);
+  text-align: center;
+}
+
+.insp-footer-copy p {
+  margin: 0;
+  color: var(--insp-muted);
+  font-size: 0.85rem;
+}
+
 .insp-legal,
 .insp-support-main {
   padding: 3rem 0 4rem;
