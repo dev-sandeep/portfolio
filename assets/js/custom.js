@@ -179,6 +179,11 @@ jQuery(function($){
 		  jQuery('html, body').stop().animate({ 
 		      scrollTop: offsetTop
 		  }, 1500);
+		  if (href && href.charAt(0) === '#' && href.length > 1) {
+		    history.pushState(null, null, href);
+		  } else if (href === '#') {
+		    history.pushState(null, null, window.location.pathname + window.location.search);
+		  }
 		  e.preventDefault();
 		});
 
@@ -198,6 +203,11 @@ jQuery(function($){
 		   
 		   if (lastId !== id) {
 		       lastId = id;
+		       if (id) {
+		         history.replaceState(null, null, '#' + id);
+		       } else {
+		         history.replaceState(null, null, window.location.pathname + window.location.search);
+		       }
 		       // Set/remove active class
 		       menuItems
 		         .parent().removeClass("active")
